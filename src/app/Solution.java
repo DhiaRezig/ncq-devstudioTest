@@ -92,8 +92,6 @@ public class Solution {
             arr=removeElement(arr,getMax(arr).entrySet().iterator().next().getKey());
             j--;
         }
-        
-  
         return res;
         
     }
